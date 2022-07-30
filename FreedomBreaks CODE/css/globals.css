@@ -1,0 +1,52 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/62bca0d499451235426a98d2.62bc9e58eb5d06efa9bfbbe9.EKHBkew.hcp.png");
+
+@font-face {
+  font-family: "Helvetica Now Display-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Monotype  - Helvetica Now Display.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Now Display-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/HelveticaNowDisplay-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Now Display-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/HelveticaNowDisplay-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Now Display-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/HelveticaNowDisplay-Medium.otf") format("opentype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}

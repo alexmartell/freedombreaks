@@ -1,0 +1,70 @@
+:root { 
+  --black: #000000;
+  --monza: #d20014;
+  --nobel: #b3b3b3;
+  --white: #ffffff;
+  --white-2: #ffffff0f;
+  --white-3: #ffffff1a;
+ 
+  --font-size-l: 19.2px;
+  --font-size-m: 16px;
+  --font-size-s: 13.3px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 31.2px;
+  --font-size-xxxl: 39.1px;
+  --font-size-xxxxl: 66px;
+ 
+  --font-family-drive_corps_expanded-regular: "Drive Corps Expanded-Regular", Helvetica;
+  --font-family-helvetica_now_display-bold: "Helvetica Now Display-Bold", Helvetica;
+  --font-family-helvetica_now_display-light: "Helvetica Now Display-Light", Helvetica;
+  --font-family-helvetica_now_display-medium: "Helvetica Now Display-Medium", Helvetica;
+  --font-family-helvetica_now_display-regular: "Helvetica Now Display-Regular", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
+}
+.helveticanowdisplay-regular-normal-white-13-3px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica_now_display-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helveticanowdisplay-regular-normal-nobel-16px {
+  color: var(--nobel);
+  font-family: var(--font-family-helvetica_now_display-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helveticanowdisplay-medium-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica_now_display-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.helveticanowdisplay-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica_now_display-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.helveticanowdisplay-regular-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica_now_display-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helveticanowdisplay-regular-normal-white-19-2px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica_now_display-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
